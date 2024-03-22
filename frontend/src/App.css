@@ -1,0 +1,31 @@
+/************ Custom Font ************/
+@font-face {
+	font-family: visbycf;
+	src: url('./assets/font/Fontspring-DEMO-visbycf-heavy.otf');
+    font-weight: 900;
+}
+@font-face {
+	font-family: lemonada;
+	src: url('./assets/font/Lemonada-VariableFont_wght.ttf');
+    font-weight: 900;
+}
+@font-face {
+	font-family: raleway;
+	src: url('./assets/font/Raleway-VariableFont_wght.ttf');
+    font-weight: 600;
+}
+@font-face {
+	font-family: cairo;
+	src: url('./assets/font/Cairo-ExtraBold.ttf');
+    font-weight: 900;
+}
+@font-face {
+	font-family: cairo;
+	src: url('./assets/font/Cairo-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+	font-family: cairo;
+	src: url('./assets/font/Cairo-Light.ttf');
+    font-weight: 200;
+}

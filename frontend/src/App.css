@@ -29,3 +29,7 @@
 	src: url('./assets/font/Cairo-Light.ttf');
     font-weight: 200;
 }
+/****************************************/
+body{
+    font-family: 'visbycf', sans-serif !important;
+}

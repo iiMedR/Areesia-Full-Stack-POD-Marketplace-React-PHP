@@ -56,3 +56,11 @@ body{
     transition: background-color 0.3s;
 }
 
+.Logo_Container{
+  width: 80px;
+}
+.logoo{
+    width: 180px;
+    cursor: pointer;
+}
+

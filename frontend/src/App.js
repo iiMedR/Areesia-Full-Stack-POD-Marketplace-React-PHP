@@ -8,6 +8,7 @@ import ClientLoggedIn from './components/Client/LoggedInRoute';
 import DesignerLoggedOut from './components/Designer/DesignerLoggedOutRoute';
 import DesignerLoggedIn from './components/Designer/DesignerLoggedInRoute';
 import Signup from './Pages/Signup';
+import Confirmation from './Pages/Confirmation';
 import Login from './Pages/Login'
 import ClientSignup from './Pages/ClientSignup';
 import ClientLogin from './Pages/ClientLogin';
@@ -20,6 +21,7 @@ class App extends Component  {
           <ScrollToTop />
           <Routes>
             <Route path="/Signup" element={<DesignerLoggedIn> <Signup /> </DesignerLoggedIn>}  />
+            <Route path="/confirmation" element={<DesignerLoggedIn> <Confirmation /> </DesignerLoggedIn>}  />
             <Route path="/login" element={<DesignerLoggedIn> <Login /> </DesignerLoggedIn>}  />
             <Route path="/client-signup" element={<ClientLoggedIn> <ClientSignup /> </ClientLoggedIn>}  />
             <Route path="/client-login" element={<ClientLoggedIn> <ClientLogin /> </ClientLoggedIn>}  />

@@ -199,6 +199,23 @@ body{
     }
 }
 
+/***************************Login Page (signin page)*******************************************/
+.Login_Form{
+    margin: 50px auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 55%;
+    width: 90%;
+}
+.Login_Form .fields:not(:last-child) {
+    margin-bottom: 10px; /* Spacing between each field */
+  }
+  
+.Login_Form .fields {
+    width: 100%; /* Width of individual fields */
+  }
 .Logo_Container{
   width: 80px;
 }

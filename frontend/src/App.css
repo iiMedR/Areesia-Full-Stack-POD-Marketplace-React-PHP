@@ -286,3 +286,32 @@ body{
     cursor: pointer;
 }
 
+/************** Client signup page and client signin too**************************/
+.Client_Left_Item {
+  padding-top: 50px;
+  width: 50vw;
+  height: 100vh;
+}
+.Client_Left_Item .Link {
+  text-decoration: none;
+  color: #6661F7;
+  display: block; /* Makes the link a block-level element */
+  margin: 30px auto 0; /* Adds 30px margin on top and auto on left and right */
+  text-align: center; /* Centers the text inside the link */
+}  
+.Client_Left_Item h1, .Client_Left_Item p{
+  margin-left: 50px;
+}
+.Client_Signup_Form {
+  margin: 50px;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Client_Signup_First_Step{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

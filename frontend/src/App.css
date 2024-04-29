@@ -338,3 +338,28 @@ body{
   transition: background-color 0.3s;
 }
 
+.name-fields {
+display: flex;
+justify-content: space-between;
+width: 100%;
+margin-bottom: 10px; /* Ensure spacing below the name fields */
+}
+
+.name-fields .fields {
+width: calc(50% - 5px); /* Adjust for margin */
+margin-right: 5px; /* Add margin to the right of the first input field */
+}
+
+.name-fields .fields:last-child {
+margin-right: 0; /* Remove margin for the last input field */
+}
+
+.Client_Signup_First_Step .fields:not(:last-child) {
+margin-bottom: 10px; /* Spacing between each field */
+}
+
+.Client_Signup_First_Step .fields {
+width: 100%; /* Width of individual fields */
+}
+
+

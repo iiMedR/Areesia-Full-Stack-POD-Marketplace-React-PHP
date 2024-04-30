@@ -363,3 +363,43 @@ width: 100%; /* Width of individual fields */
 }
 
 
+.Client_Right_Item{
+  background-image: url('./assets/img/moroccan_structure_clt.png');
+  background-color: #6661F7;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.Signup_Image{
+  height: 100%;
+}
+.signup_welcoming {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: left; /* Center vertically */
+  height: 80%; /* Full height */
+  width: 90%;
+  flex-direction: column;
+  margin: auto;
+}
+.signup_welcoming .smile{
+  font-family: 'lemonada';
+  font-weight: 100;
+}
+.coma {
+  font-size: 140px;
+  color: transparent;
+  -webkit-text-stroke: 2px white; /* Stroke effect */
+  transform: rotate(-6.5deg);
+  font-family: 'lemonada';
+}
+
+.message {
+  font-size: 60px;
+  color: white;
+  transform: rotate(-6.5deg);
+  text-align: left;
+  margin-top: -2em;
+}
+
+

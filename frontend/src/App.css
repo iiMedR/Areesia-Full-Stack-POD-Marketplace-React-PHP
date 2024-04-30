@@ -403,3 +403,20 @@ width: 100%; /* Width of individual fields */
 }
 
 
+/* CSS for smaller screens */
+@media screen and (max-width: 900px) {
+  .Client_Left_Item {
+      margin-left: 0;
+      width: 100vw; /* Take full width of the viewport */
+  }
+
+  .Client_Right_Item {
+      display: none; /* Hide the right side */
+  }
+  .Client_Left_Item .Client_Signup_Form {
+      margin: 10px;
+  }
+}
+
+
+

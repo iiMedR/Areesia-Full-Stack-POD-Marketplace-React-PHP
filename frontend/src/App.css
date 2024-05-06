@@ -286,7 +286,49 @@ body{
     cursor: pointer;
 }
 
-/************** Client signup page and client signin too**************************/
+/*****************************Change Password popup*****/
+  .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(43, 43, 43, 0.48);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup.open {
+    display: flex;
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 50px 247px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .popup-content h2 {
+    margin-bottom: 20px;
+  }
+
+  .popup .popup-content {
+    max-width: 700px;
+    padding: 50px 60px;
+  }
+  
+  .popup .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 50px;
+  }
+
+  /************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;
   width: 50vw;

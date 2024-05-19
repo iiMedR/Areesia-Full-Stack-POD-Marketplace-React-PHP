@@ -12,6 +12,7 @@ import Confirmation from './Pages/Confirmation';
 import Login from './Pages/Login'
 import ClientSignup from './Pages/ClientSignup';
 import ClientLogin from './Pages/ClientLogin';
+import ClientSettings from './Pages/ClientSettings';
 
 
 class App extends Component  {
@@ -25,6 +26,7 @@ class App extends Component  {
             <Route path="/login" element={<DesignerLoggedIn> <Login /> </DesignerLoggedIn>}  />
             <Route path="/client-signup" element={<ClientLoggedIn> <ClientSignup /> </ClientLoggedIn>}  />
             <Route path="/client-login" element={<ClientLoggedIn> <ClientLogin /> </ClientLoggedIn>}  />
+            <Route path="/client-settings" element={<ClientLoggedOut> <ClientSettings /> </ClientLoggedOut>}  />
           </Routes>
         </Router>
     );

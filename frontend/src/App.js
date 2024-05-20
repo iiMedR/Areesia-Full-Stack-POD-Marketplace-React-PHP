@@ -10,6 +10,7 @@ import DesignerLoggedIn from './components/Designer/DesignerLoggedInRoute';
 import Signup from './Pages/Signup';
 import Confirmation from './Pages/Confirmation';
 import Login from './Pages/Login'
+import Settings from './Pages/Settings';
 import ClientSignup from './Pages/ClientSignup';
 import ClientLogin from './Pages/ClientLogin';
 import ClientSettings from './Pages/ClientSettings';
@@ -24,6 +25,7 @@ class App extends Component  {
             <Route path="/Signup" element={<DesignerLoggedIn> <Signup /> </DesignerLoggedIn>}  />
             <Route path="/confirmation" element={<DesignerLoggedIn> <Confirmation /> </DesignerLoggedIn>}  />
             <Route path="/login" element={<DesignerLoggedIn> <Login /> </DesignerLoggedIn>}  />
+            <Route path="/settings" element={<DesignerLoggedOut> <Settings /> </DesignerLoggedOut>}  />
             <Route path="/client-signup" element={<ClientLoggedIn> <ClientSignup /> </ClientLoggedIn>}  />
             <Route path="/client-login" element={<ClientLoggedIn> <ClientLogin /> </ClientLoggedIn>}  />
             <Route path="/client-settings" element={<ClientLoggedOut> <ClientSettings /> </ClientLoggedOut>}  />

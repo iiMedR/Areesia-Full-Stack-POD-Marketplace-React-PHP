@@ -278,6 +278,7 @@ body{
 
 
 
+/************************* navbar ***/
 .Logo_Container{
   width: 80px;
 }
@@ -286,7 +287,67 @@ body{
     cursor: pointer;
 }
 
-/*****************************Change Password popup*****/
+/* Navbar.css */
+.navbar {
+    background-color: white !important;
+    box-shadow: none !important;
+  }
+  
+  .toolbar {
+    display: flex !important;
+    justify-content: space-between !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100%;
+  }
+  
+  .nav-link-container {
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-grow: 1 !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+  
+  .nav-link {
+    text-decoration: none !important;
+    color: black !important;
+    border-bottom: 2px solid transparent !important; /* Makes the transition smoother */
+    padding: 0 10px !important; /* Adjust as needed */
+  }
+  
+  .nav-link.active {
+    border-bottom: 3px solid black !important;
+  }
+
+  @media (max-width: 950px) {
+    .nav-link-container {
+      display: flex !important;
+      overflow-x: auto !important; /* Enables horizontal scrolling */
+      white-space: nowrap !important; /* Keeps the links in a single line */
+      width: 100% !important; /* Full width of the screen */
+      padding: 20px !important;
+    }
+  
+    .nav-link {
+      font-size: smaller !important; /* Reduce the font size */
+      margin-right: 25px !important; /* Space between the links */
+      padding: 0 !important; /* Adjust or remove padding */
+    }
+  
+    /* Optional: Hide scrollbar but allow scrolling */
+    .nav-link-container::-webkit-scrollbar {
+      display: none;
+    }
+    .nav-link-container {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
+  
+  
+  
+  /*****************************Change Password popup*****/
   .popup {
     display: none;
     position: fixed;

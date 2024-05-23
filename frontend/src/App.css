@@ -347,6 +347,53 @@ body{
   
   
   
+  /************************* Settings **************************/
+  .Settings_Container{
+    width: 100vw;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .Settings_Form_Container{
+    display: flex;
+    justify-content: space-between; /* Aligns children (header and sections) at start and end */
+    flex-direction: row;
+    margin-bottom: 30px;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  .Settings_Left_Side, .Settings_Right_Side{
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Aligns children (header and sections) at start and end */
+  }
+  .Settings_Profile_img {
+    height: 275px;
+    margin-top: 10px;
+    border: #0F0F26 solid 2px;
+    border-radius: 10px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Settings_Profile_img .primaryButton{
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 45px;
+    border-radius: 15px;
+  }  
+
+  .Settings_Right_Side{
+    width: 540px;
+    display: flex;
+  }
+
   /*****************************Change Password popup*****/
   .popup {
     display: none;

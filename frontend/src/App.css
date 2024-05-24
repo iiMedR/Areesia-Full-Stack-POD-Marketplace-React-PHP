@@ -469,7 +469,38 @@ body{
 
 
 
-/*****************************Change Password popup*****/
+/* Responsive styles for mobile screens */
+@media (max-width: 500px) {
+
+    .Settings_Container {
+      padding-left: 15px;
+      padding-right: 0px;
+    }
+    .Settings_Left_Side .name-fields{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .Settings_Left_Side .name-fields .fields{
+      width: 100%;
+      margin-top: 10px;
+    }
+    .Settings_Profile_img img{
+      width: 60px;
+      height: 60px;
+    }
+    .settings_Buttons_Container{
+      flex-direction: column;
+    }
+    .Settings_Container .settings_Buttons_Container .primaryButton,.Settings_Container .settings_Buttons_Container .secondaryButton {
+      font-size: 16px; /* Adjust the size as needed */
+      width: 100%; /* Full width */
+      margin: 0;
+    }
+  }
+
+
+  /*****************************Change Password popup*****/
   .popup {
     display: none;
     position: fixed;

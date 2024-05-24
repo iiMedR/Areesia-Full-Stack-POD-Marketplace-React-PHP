@@ -416,7 +416,60 @@ body{
 
 
 
-  /*****************************Change Password popup*****/
+  @media (max-width: 955px) {
+    .Settings_Container {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  
+    .Settings_Form_Container {
+      flex-direction: column;
+      padding-left: 0px;
+      padding-right: 10px;
+    }
+  
+    .Settings_Left_Side, .Settings_Right_Side {
+      width: 100%;
+      margin-bottom: 0;
+    }
+
+    .Settings_Right_Side .fields{
+      margin-bottom: 15px;
+    }
+  
+    /* Adjust font sizes for smaller screens */
+    h3 {
+      font-size: 18px; /* Adjust the size as needed */
+    }
+  
+    /* Adjust the TextField styles for smaller screens */
+    .fields {
+      font-size: 14px; /* Adjust the size as needed */
+    }
+  
+    .Settings_Container .settings_Buttons_Container{
+      padding: 0;
+    }
+    /* Adjust the button sizes and fonts */
+    .Settings_Container .settings_Buttons_Container .primaryButton,.Settings_Container .settings_Buttons_Container .secondaryButton {
+      font-size: 14px; /* Adjust the size as needed */
+      padding: 20px; /* Adjust the padding as needed */
+      width: 100%; /* Full width */
+    }
+  
+    /* Adjust the profile image container for smaller screens */
+    .Settings_Profile_img {
+      /* Adjust padding, margins, and sizes as needed for smaller screens */
+      padding: 10px;
+      margin-top: 20px;
+      height: auto;
+    }
+  }
+  
+
+
+
+/*****************************Change Password popup*****/
   .popup {
     display: none;
     position: fixed;

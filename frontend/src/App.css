@@ -593,7 +593,51 @@ body{
     border-radius: 10px;
 }
 
-/************** Client signup page and client signin too**************************/
+.image-upload-container {
+  position: relative;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.profile-upload {
+  position: absolute;
+  bottom: -50px; /* Adjust this value as needed */
+  left: 50%; /* Centers the element */
+  transform: translateX(-50%); /* Aligns the center of the element with the left 50% point */
+  z-index: 1001;
+  width: 120px; /* Adjust width as needed */
+  height: 120px; /* Adjust height as needed */
+  border-radius: 50%; /* Makes it circular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: white; /* Initial background color */
+  overflow: hidden; /* Ensures no spillover outside the circular shape */
+}
+
+.profile-upload img {
+  width: 100%; /* Fill the container */
+  height: 100%; /* Fill the container */
+  border-radius: 50%; /* Circular shape */
+  object-fit: cover; /* Cover the container fully while maintaining aspect ratio */
+  object-position: center; /* Center the image within the container */
+}
+
+.profile-upload:hover::after {
+  background-color: #0f0f26e1; /* Darker shade on hover */
+  content: 'Change Profil';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+}
+
+
+  /************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;
   width: 50vw;

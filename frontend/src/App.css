@@ -565,7 +565,35 @@ body{
     text-align: center;
     max-width: 1000px;
   }
-  /************** Client signup page and client signin too**************************/
+  .cover-upload {
+    height: 200px; /* Set height to 200px */
+    margin: 0 auto; /* Center it in the container */
+    border: #0F0F26 solid 3px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Needed for the positioning of the overlay text */
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+    z-index: 1000;
+}
+
+
+.cover-upload:hover::after {
+    background-color: #edededde; /* Darker shade on hover */
+    content: 'Change cover picture';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0F0F26; /* Text color */
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+/************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;
   width: 50vw;

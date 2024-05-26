@@ -771,3 +771,51 @@ width: 100%; /* Width of individual fields */
 
 
 
+/************************* Clients Settings **************************/
+.Client_Settings_Container{
+  width: 100vw;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.Client_Settings_Form_Container{
+  display: flex;
+  justify-content: space-between; /* Aligns children (header and sections) at start and end */
+  flex-direction: row;
+  max-width: 1200px;
+  margin: 20px auto;
+  gap: 30px;
+}
+.Client_Settings_Left_Side{
+  width: 540px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.datePicker{
+  font-family: 'Cairo';
+  padding: 10px;
+  border: #0F0F26 solid 1px;
+  border-radius: 5px;
+  height: 60px;
+}
+
+.Client_Settings_Right_Side{
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+}
+.Client_Settings_Right_Side button{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+.Client_Settings_Right_Side button:hover{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+

@@ -819,3 +819,37 @@ width: 100%; /* Width of individual fields */
   width: 300px;
 }
 
+.Client_Settings_Container .Client_settings_Buttons_Container{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  width: 70%;
+  max-width: 900px;
+  margin: auto;
+  gap: 40px;
+}
+
+.Client_Settings_Container .Client_settings_Buttons_Container .primaryButton,
+.Client_Settings_Container .Client_settings_Buttons_Container .secondaryButton{
+  font-size: 16px;
+  padding: 15px;
+  margin: 0;
+  width: 360px;
+}
+
+.Client_settings_Buttons_Container .primaryButton,
+.Client_settings_Buttons_Container .secondaryButton:hover{
+  background-color: #6661F7;
+  border:#6661F7 solid 2px;
+  color: white;
+}
+
+.Client_settings_Buttons_Container .secondaryButton,
+.Client_settings_Buttons_Container .primaryButton:hover{
+  color: #6661F7;
+  border:#6661F7 solid 2px;
+  background-color: white;
+}
+

@@ -853,3 +853,23 @@ width: 100%; /* Width of individual fields */
   background-color: white;
 }
 
+.Client_Settings_Right_Side .Address_Container{
+  margin-bottom: 20px;
+  padding: 20px;
+  border: #0F0F26 solid 2px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Client_Settings_Right_Side .Address_Container .link{
+  text-align: center;
+  font-family: 'Cairo';
+  font-weight: 900;
+  text-decoration: none;
+  color: #0F0F26;
+}
+
+
+

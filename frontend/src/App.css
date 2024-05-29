@@ -945,3 +945,27 @@ width: 100%; /* Width of individual fields */
 }
 
 
+/**************************** Client Profile*************************************/
+
+.Client_Profile_Page{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.Client_Profile_Container{
+  padding: 0 80px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.Client_Profile_Container .Cards_Container{
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+

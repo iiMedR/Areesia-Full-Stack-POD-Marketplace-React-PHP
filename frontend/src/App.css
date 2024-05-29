@@ -918,3 +918,30 @@ width: 100%; /* Width of individual fields */
 
 
 
+/* Responsive styles for mobile screens */
+@media (max-width: 500px) {
+
+  .Client_Settings_Container {
+    padding-left: 15px;
+    padding-right: 0px;
+  }
+  .Client_Settings_Left_Side .name-fields{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .Client_Settings_Left_Side .name-fields .fields{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .Client_settings_Buttons_Container{
+    flex-direction: column;
+  }
+  .Client_Settings_Container .Client_settings_Buttons_Container .primaryButton,.Client_Settings_Container .Client_settings_Buttons_Container .secondaryButton {
+    font-size: 16px; /* Adjust the size as needed */
+    width: 100%; /* Full width */
+    margin: 0;
+  }
+}
+
+

@@ -969,3 +969,37 @@ width: 100%; /* Width of individual fields */
   gap: 50px;
 }
 
+.Client_Profile_Container .Cards_Container .Card{
+  padding: 0;
+  border: none;
+  height: 350px;
+  width: 280px;
+  border-radius: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  background-image: url(./assets/img/btnbg.png);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.Client_Profile_Container .Cards_Container .Card:hover{
+  scale: 1.02;
+}
+
+.Client_Profile_Container .Cards_Container .Card img{
+  object-fit: cover;
+  position: absolute;
+  top: 30px;
+  left: -20px;
+}
+
+.Client_Profile_Container .Cards_Container .Card p{
+  margin: 20px  auto;
+  color: white;
+  font-family: 'Cairo';
+  font-weight: 500;
+  font-size: 24px;
+}
+
+

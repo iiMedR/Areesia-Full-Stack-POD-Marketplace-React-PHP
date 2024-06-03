@@ -407,6 +407,54 @@ body{
     margin: 0;
   }
   
+  .dashboard-right-side {
+    width: 60%; /* Rest of the container */
+    padding-left: 60px; /* Spacing between left and right sides */
+    /* Additional styles for right side */
+
+  }
+  
+  .dashboard-row {
+    display: flex;
+    justify-content: space-between; /* Space out blocks */
+    margin-bottom: 60px; /* Spacing between rows */
+
+  }
+  
+  .dashboard-block {
+    width: 45%; /* 40% of the parent container (dashboard-row) */
+    height: 130px;
+    border: #0F0F26 solid 3px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align title and number */
+  }
+  .block-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .block-header h3 {
+    font-size: 21px;
+    margin: 0;
+  }
+  
+  .block-header img {
+    width: 41px;
+    height: 41px;
+  }
+  
+  .block-number {
+    font-size: 40px;
+    text-align: left;
+    font-family: 'cairo';
+    font-weight: 900;
+  }
+  
+
   /************************* Settings **************************/
   .Settings_Container{
     width: 100vw;

@@ -347,6 +347,66 @@ body{
   
   
   
+  /**********************dashboard*/
+  .dashboard-container {
+    display: flex;
+    width: 100vw;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 30px;
+    box-sizing: border-box; /* To include padding in width calculation */
+  }
+  
+  .dashboard-left-side {
+    width: 40%;
+    height: 320px;
+    /* Add additional styles for left side here */
+    border: #0F0F26 solid 3px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Aligns children (header and sections) at start and end */
+  }
+  
+  .left-side-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Spacing between header and sections */
+  }
+  
+  .left-side-header h2 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .orders-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .orders-sections {
+    display: flex;
+    justify-content: space-around; /* Distribute sections evenly */
+  }
+  
+  .orders-section {
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 21px;
+    margin: 0;
+  }
+  
+  .section-number {
+    font-family: 'cairo';
+    font-weight: 900;
+    font-size: 40px;
+    margin: 0;
+  }
+  
   /************************* Settings **************************/
   .Settings_Container{
     width: 100vw;

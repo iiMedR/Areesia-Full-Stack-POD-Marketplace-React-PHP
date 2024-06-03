@@ -455,7 +455,54 @@ body{
   }
   
 
-  /************************* Settings **************************/
+  @media (max-width: 955px) {
+    .dashboard-container {
+      flex-direction: column;
+      align-items: center;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .dashboard-row {
+        margin-bottom: 0;
+        margin-top: 15px;
+      }
+  
+    .dashboard-left-side,
+    .dashboard-right-side {
+      width: 100%;
+      margin-bottom: 20px; /* Add some space between the left and right sides */
+    }
+    .dashboard-right-side{
+        padding-left: 0;
+    }
+    .dashboard-left-side{
+        height: auto;
+    }
+  
+    /* Adjust the block size within the right side for smaller screens */
+    .dashboard-block { 
+      width: 48%;
+      margin-bottom: 10px; /* Add space between blocks */
+
+    }
+  
+
+    .left-side-header h2,
+    .dashboard-block-title {
+      font-size: 24px; /* Smaller font size for smaller screens */
+    }
+  
+    .section-number,
+    .block-number {
+      font-size: 24px; /* Smaller font size for numbers */
+    }
+
+  }
+
+
+
+/************************* Settings **************************/
   .Settings_Container{
     width: 100vw;
     padding-left: 100px;

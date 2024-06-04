@@ -502,7 +502,58 @@ body{
 
 
 
-/************************* Settings **************************/
+/* Responsive styles for mobile screens */
+@media (max-width: 500px) {
+
+  
+    .dashboard-left-side{
+        padding-bottom: 10px;
+    }
+    .orders-sections{
+        margin-top: 20px;
+    }
+  
+    /* Adjust the layout of the blocks within the right side for mobile screens */
+    .dashboard-row {
+      flex-direction: column;
+      margin: 0;
+    }
+  
+    .dashboard-block {
+      width: 100%;
+      margin-bottom: 20px; /* More space between blocks */
+      /* Adjust the height if necessary */
+    }
+  
+    /* Resize and reposition titles and icons for smaller screens */
+    .left-side-header h2,
+    .dashboard-block-title {
+      font-size: 20px; /* Smaller font size */
+    }
+  
+    .orders-icon,
+    .block-icon {
+      width: 30px; /* Smaller icons */
+      height: 30px;
+    }
+  
+    /* Resize numbers and adjust layout for readability */
+    .section-number,
+    .block-number {
+      font-size: 28px; /* Adjust font size for numbers */
+    }
+  
+    .section-title{
+        font-size: 18px;
+    }
+  
+    .orders-section {
+      margin-bottom: 10px; /* Space between each section */
+    }
+  }
+  
+
+  /************************* Settings **************************/
   .Settings_Container{
     width: 100vw;
     padding-left: 100px;

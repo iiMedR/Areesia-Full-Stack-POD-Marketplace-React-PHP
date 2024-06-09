@@ -916,6 +916,21 @@ body{
     }
   }
   
+  /* Small screens (e.g., mobile devices) */
+  @media (max-width: 617px) {
+    .Addnewdesign_Container{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .Product_Card {
+      margin-top: 0px;
+      width: 100%; /* Full width for mobile */
+    }
+  }
+
+
+
+
   /************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;

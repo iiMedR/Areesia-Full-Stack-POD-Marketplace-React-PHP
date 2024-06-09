@@ -889,6 +889,33 @@ body{
     transform: scale(1.03);
   }
 
+  @media (max-width: 1400px) {
+    .Products_Container {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .Product_Card {
+      width: calc(30% - 10px); /* Adjust width to fit 2 cards per row */
+      margin-bottom: 20px; /* Space between rows */
+    }
+  }
+  @media (max-width: 870px) {
+    .Addnewdesign_Container{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .Products_Container {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .Product_Card {
+      width: calc(50% - 10px); /* Adjust width to fit 2 cards per row */
+      margin-bottom: 20px; /* Space between rows */
+    }
+  }
+  
   /************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;

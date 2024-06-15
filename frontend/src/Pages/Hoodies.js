@@ -145,6 +145,46 @@ function SweatShirt() {
                 </div>
               </div>
             )}
+            {/***** step 3 *****/}
+            {activeStep === 3 && (
+              <div className='step3_Container'>
+                <div className='Left_Right_Container'>
+                  <div className='step3_Left_Side'>
+                    <div className='design_Mockup'>
+                      {/*{coverImage && <img src={coverImage} alt="Cover" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />}*/}
+                    </div>
+                  </div>
+                  <div className='step3_Right_Side'>
+                    <Buttongroup />
+                    <h4>Choose audience type</h4>
+                    <div>
+                    <FormControlLabel control={<Checkbox color='default' />} label="Men" />
+                    <FormControlLabel control={<Checkbox color='default' />} label="Women" />
+                    <FormControlLabel control={<Checkbox color='default' />} label="Kids" />
+                    </div>
+                    <h4>Select Colors</h4>
+                    <div>
+                    <FormControlLabel control={<Checkbox color='default' />} label="Black" />
+                    <FormControlLabel control={<Checkbox color='default' />} label="White" />
+                    </div>
+                    <h4>Default Color</h4>
+                    <div>
+                    <RadioGroup row aria-labelledby="demo-row-radio-buttons-group-label" name="row-radio-buttons-group">
+                      <FormControlLabel value="Black" control={<Radio color='default' />} label="Black" />
+                      <FormControlLabel value="White" control={<Radio color='default' />} label="White" />
+                    </RadioGroup>
+                    </div>
+                    <h4>Your Profit Margin</h4>
+                      <WhiteBorderTextField id="Title" type='number' placeholder='50' sx={{width: '40%'}} required/>
+                      <p>Total : 200 MAD</p>
+                  </div>
+                </div>  
+                <div className='Buttons_Group'>
+                  <button className='secondaryButton' onClick={handleBack} style={{ margin: '10px auto', padding: '10px'}}>Back</button>
+                  <button className='primaryButton' onClick={handleNext} style={{ margin: '10px auto', padding: '10px'}}>Next</button>
+                </div>
+              </div>
+            )}
             <div className='step-indicator-container'>
                 <div className={activeStep === 1 ? 'step-indicator active' : 'step-indicator'}></div>
                 <div className={activeStep === 2 ? 'step-indicator active' : 'step-indicator'}></div>

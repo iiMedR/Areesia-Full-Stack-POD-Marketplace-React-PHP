@@ -130,6 +130,21 @@ function SweatShirt() {
                 <button className='primaryButton' onClick={handleNext} style={{maxWidth: '500px', margin: '15px auto', padding: '10px'}}>Next</button>
               </div>
             )}
+            {/***** step 2 *****/}
+            {activeStep === 2 && (
+              <div className='step2_Container'>
+                <h4>Title</h4>
+                <p>Use a descriptive title that explains your work in 4-8 words.</p>
+                <WhiteBorderTextField id="Title" placeholder='Example: Great Wave of Trees' sx={{width: '100%'}} required/>
+                <h4 style={{marginTop: '15px'}}>Description</h4>
+                <p>Share the story or meaning behind your work.</p>
+                <WhiteBorderTextField id="Description" multiline rows={4} placeholder='Example: Drawing I did while camping at the national park.' sx={{width: '100%'}} required/>
+                <div className='Buttons_Group'>
+                  <button className='secondaryButton' onClick={handleBack} style={{ margin: '10px auto', padding: '10px'}}>Back</button>
+                  <button className='primaryButton' onClick={handleNext} style={{ margin: '10px auto', padding: '10px'}}>Next</button>
+                </div>
+              </div>
+            )}
             <div className='step-indicator-container'>
                 <div className={activeStep === 1 ? 'step-indicator active' : 'step-indicator'}></div>
                 <div className={activeStep === 2 ? 'step-indicator active' : 'step-indicator'}></div>

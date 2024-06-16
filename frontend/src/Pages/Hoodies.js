@@ -185,6 +185,21 @@ function SweatShirt() {
                 </div>
               </div>
             )}
+            {/***** step 4 *****/}
+            {activeStep === 4 && (
+              <div className='step4_Container'>
+                <h4>Who Can see this work</h4>
+                <RadioGroup>
+                  <FormControlLabel value="Public" control={<Radio color='default'/>} label="Anyone / Public" />
+                  <FormControlLabel value="private" control={<Radio color='default'/>} label="Only you / private" />
+                </RadioGroup>
+                <FormControlLabel className='checkbx' control={<Checkbox color='default' />} label="I agree to the Platform User Agreement, and I confirm that I have the right to sell products containing this artwork." />
+                <div className='Buttons_Group'>
+                  <button className='secondaryButton' onClick={handleBack} style={{ margin: '10px auto', padding: '10px'}}>Back</button>
+                  <button className='primaryButton' style={{ margin: '10px auto', padding: '10px'}}>Publish</button>
+                </div>
+              </div>
+            )}
             <div className='step-indicator-container'>
                 <div className={activeStep === 1 ? 'step-indicator active' : 'step-indicator'}></div>
                 <div className={activeStep === 2 ? 'step-indicator active' : 'step-indicator'}></div>

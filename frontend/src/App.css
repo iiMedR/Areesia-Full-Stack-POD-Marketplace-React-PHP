@@ -951,6 +951,14 @@ body{
     width: 100%;
   }
 
+  @media (max-width: 450px){
+    .Manage_Designs_Container{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+
   /************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;

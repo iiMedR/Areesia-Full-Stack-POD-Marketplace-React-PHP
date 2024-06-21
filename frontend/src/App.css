@@ -959,6 +959,57 @@ body{
   }
 
 
+  /************************************Sweatshirt page*******************************/
+
+  .Printing_Places_Container{
+    width: 100vw;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+  }
+
+  .step1_Container{
+    display: flex;
+    flex-direction: column;
+  }
+  .step1_Container .Products_Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .Product_Place{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .Product_Place_Border{
+    padding: 10px 40px;
+    width: 280px;
+    border:#0F0F26 solid 3px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+  .Product_Place img{
+    height: 220px;
+    width: 165px;
+    margin: 0 auto;
+  }
+
+  .Product_Place button, .Product_Place button:hover{
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+
+  .Printing_Places_Container .step-indicator-container{
+    margin-top: 20px;
+  }
+
   /************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;

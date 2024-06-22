@@ -1010,6 +1010,25 @@ body{
     margin-top: 20px;
   }
 
+  .step2_Container{
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .step2_Container p{
+    font-family: 'cairo';
+    font-weight: 200;
+    font-size: 14px;
+  }
+
+  .Buttons_Group{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
   /************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;

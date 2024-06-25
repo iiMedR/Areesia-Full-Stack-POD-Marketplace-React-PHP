@@ -1067,6 +1067,17 @@ body{
     margin-top: 30px;
   }
 
+  .step4_Container{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .step4_Container .checkbx{
+    margin-top: 30px;
+  }
+
+
   /************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;

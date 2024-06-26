@@ -1078,6 +1078,16 @@ body{
   }
 
 
+  @media (max-width: 1003px) {
+
+    .Printing_Places_Container{
+      width: 100vw;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 50px;
+    }
+  }
+
   /************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;

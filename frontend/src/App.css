@@ -1088,6 +1088,31 @@ body{
     }
   }
 
+  @media (max-width: 935px) {
+
+    .step3_Container{
+      width: 100%;
+      flex-direction: column;
+    }
+    .Left_Right_Container{
+      display: flex;
+      flex-direction: column;
+    }
+    .design_Mockup{
+      top: 100px; /* Adjust as needed */
+    }
+    .step3_Left_Side{
+      margin: 0 auto;
+    }
+  
+    .step3_Right_Side{
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+    
+  }
+
   /************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;

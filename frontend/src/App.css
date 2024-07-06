@@ -1123,6 +1123,19 @@ body{
 
 
 
+  /****************************Home Page****************/
+
+  .Header_Container{
+    height: 100vh;
+    background-color: #6661F7;
+    background-image: url('./assets/img/moroccan_structure_clt.png');
+  }
+
+  .Welcoming_Container{
+    display: flex;
+    justify-content: center;
+  }
+
   /************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;

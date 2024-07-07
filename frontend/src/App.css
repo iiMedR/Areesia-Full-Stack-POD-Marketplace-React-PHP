@@ -1136,6 +1136,31 @@ body{
     justify-content: center;
   }
 
+  .Welcoming_Container h1{
+    font-size: 155px;
+    color: white;
+    position: absolute;
+    top: 300px;
+    z-index: 1;
+  }
+
+  .Welcoming_Container p{
+    color: white;
+    position: absolute;
+    top: 450px;
+    right: 190px;
+    z-index: 3;
+  }
+  .Welcoming_Container .stroke{
+    color: transparent;
+    -webkit-text-stroke: 2px #6661F7; /* Stroke effect */
+    z-index: 3;
+  }
+  .Welcoming_Container img{
+    z-index: 2;
+  }
+
+
   /************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;

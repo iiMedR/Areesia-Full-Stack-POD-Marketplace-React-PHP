@@ -1,0 +1,42 @@
+/*********************Categories section**************/
+.Categories_Container{
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Categories_Container h2{
+    margin: auto;
+    color: #6661F7;
+  }
+
+  .Categories_Container .Categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 2000px;
+    margin: auto;
+    padding: 50px;
+  }
+
+  .Categories_Container .Categories .Category_Card{
+    background: linear-gradient(26deg, #4440D3, #6661F7);
+    padding: 20px 20px 0px 20px;
+    border-radius: 15px;
+    color: white;
+    font-family: 'visbycf';
+    display: flex;
+    flex-direction: column;
+    border: none;
+    transition: 0.3s;
+  }
+
+  .Categories_Container .Categories .Category_Card:hover{
+    scale: 1.05;
+  }
+
+  .Categories_Container .Categories .Category_Card h5{
+    margin: 20px auto;
+  }

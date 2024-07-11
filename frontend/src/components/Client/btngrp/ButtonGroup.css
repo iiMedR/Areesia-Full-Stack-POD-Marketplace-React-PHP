@@ -1,0 +1,34 @@
+.button-group-client {
+    display: flex;
+  }
+  
+ .button-group-client .group-button {
+    border: 2px solid #6661F7;
+    background-color: white;
+    color: #6661F7;
+    padding: 0px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 0; /* Resets any default border-radius */
+    margin-left: -2px;
+    font-size: 13PX;
+    height: 40px;
+  }
+  
+  /* Apply border-radius to the first and last buttons */
+ .button-group-client .group-button:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+ .button-group-client .group-button:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  /* Change background for selected button */
+.button-group-client  .selected {
+    background-color: #6661F7;
+    color: white;
+  }
+  

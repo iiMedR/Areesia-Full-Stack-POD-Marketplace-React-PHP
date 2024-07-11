@@ -3,6 +3,7 @@ import ClientNavbar from '../components/Client/Navbar/ClientNavbar'
 import ClientFooter from '../components/Client/Footer/ClientFooter'
 import HoodieWelcomingImg from '../assets/img/Welcoming.png'
 import Categories from '../components/Client/Categories/Categories'
+import ProductsSection from '../components/Client/Gender/ProductsSection'
 
 function HomePage() {
 
@@ -18,6 +19,7 @@ function HomePage() {
         </div>
       </div>
       <Categories />
+      <ProductsSection />
       <ClientFooter />
     </div>
   )

@@ -2,6 +2,7 @@ import React from 'react'
 import ClientNavbar from '../components/Client/Navbar/ClientNavbar'
 import ClientFooter from '../components/Client/Footer/ClientFooter'
 import HoodieWelcomingImg from '../assets/img/Welcoming.png'
+import Categories from '../components/Client/Categories/Categories'
 
 function HomePage() {
 
@@ -16,6 +17,7 @@ function HomePage() {
           <h1>creative haven</h1>
         </div>
       </div>
+      <Categories />
       <ClientFooter />
     </div>
   )

@@ -41,6 +41,23 @@ function Product() {
                     <img src={selectedImage} alt='' />
                 </div>
             </div>
+            <div className='Right_Side'>
+                <h3>Black cat with flowers Pullover Hoodie</h3>
+                <p className='Owner'>By Mahmoud Bakhat</p>
+                <p className='Price'>250 MAD</p>
+                <h4>Color</h4>
+                <div className='Checkboxes'>
+                    <FormControlLabel control={<Checkbox color='default' />} label="Black" />
+                    <FormControlLabel control={<Checkbox color='default' />} label="White" />
+                </div>
+                <h4>Size</h4>
+                <div className='Fit_Size'>
+                    <Btngrp buttons={sizes}/>
+                    <p><SizeIcon /> Fit Size</p>
+                </div>
+                <button className='primaryButton'>Complete Purchase</button>
+                <button className='secondaryButton'>Add To Cart</button>
+            </div>
         </div>
         <ClientFooter />
     </div>

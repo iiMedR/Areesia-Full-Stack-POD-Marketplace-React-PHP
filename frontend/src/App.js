@@ -15,6 +15,7 @@ import Settings from './Pages/Settings';
 import Addnewdesign from './Pages/Addnewdesign';
 import Managedesigns from './Pages/Managedesigns';
 import Hoodies from './Pages/Hoodies';
+import HomePage from './Pages/HomePage'
 import ClientSignup from './Pages/ClientSignup';
 import ClientLogin from './Pages/ClientLogin';
 import ClientSettings from './Pages/ClientSettings';
@@ -27,6 +28,7 @@ class App extends Component  {
         <Router>
           <ScrollToTop />
           <Routes>
+            <Route path="/" element={<HomePage />}  />
             <Route path="/Signup" element={<DesignerLoggedIn> <Signup /> </DesignerLoggedIn>}  />
             <Route path="/confirmation" element={<DesignerLoggedIn> <Confirmation /> </DesignerLoggedIn>}  />
             <Route path="/login" element={<DesignerLoggedIn> <Login /> </DesignerLoggedIn>}  />

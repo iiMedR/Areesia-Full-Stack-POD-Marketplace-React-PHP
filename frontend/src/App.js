@@ -17,6 +17,7 @@ import Managedesigns from './Pages/Managedesigns';
 import Hoodies from './Pages/Hoodies';
 import HomePage from './Pages/HomePage'
 import Products from './Pages/Products';
+import Product from './Pages/Product';
 import ClientSignup from './Pages/ClientSignup';
 import ClientLogin from './Pages/ClientLogin';
 import ClientSettings from './Pages/ClientSettings';
@@ -39,6 +40,7 @@ class App extends Component  {
             <Route path="/manage-designs" element={<DesignerLoggedOut> <Managedesigns /> </DesignerLoggedOut>}  />
             <Route path="/Add-new-design/hoodies" element={<DesignerLoggedOut> <Hoodies /> </DesignerLoggedOut>}  />
             <Route path="/products" element={<Products />}  />
+            <Route path="/products/product" element={<Product />}  />
             <Route path="/client-signup" element={<ClientLoggedIn> <ClientSignup /> </ClientLoggedIn>}  />
             <Route path="/client-login" element={<ClientLoggedIn> <ClientLogin /> </ClientLoggedIn>}  />
             <Route path="/profile" element={<ClientLoggedOut> <ClientProfile /> </ClientLoggedOut>}  />

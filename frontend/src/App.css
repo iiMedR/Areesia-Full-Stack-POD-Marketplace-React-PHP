@@ -1161,6 +1161,18 @@ body{
   }
 
 
+  /************************Products page (shop)******************/
+
+  .Products_Page_Container .Products_Container{
+    width: 100vw;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+
   /************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;

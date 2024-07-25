@@ -1173,6 +1173,38 @@ body{
     margin-bottom: 50px;
   }
 
+  .Products_Page_Container .Products_Container .Product{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-family: 'cairo';
+    font-weight: 900;
+    transition: 0.5s;
+  }
+
+  .Products_Page_Container .Products_Container .Product:hover{
+    scale: 1.01;
+  }
+
+  .Products_Page_Container .Products_Container .Product img{
+    border-radius: 10px;
+  }
+
+  .Products_Page_Container .Products_Container .Product .text{
+    color: black;
+    text-decoration: none;
+  }
+
+  .Products_Page_Container .Products_Container .Product #owner-name{
+    font-weight: 100;
+  }
+
+  .Products_Page_Container .Products_Container .Product p{
+    color: #6661F7;
+    font-size: 20px;
+  }
+
+
   /************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;

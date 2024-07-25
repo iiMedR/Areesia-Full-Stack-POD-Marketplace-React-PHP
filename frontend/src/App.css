@@ -1205,7 +1205,55 @@ body{
   }
 
 
-  /************** Client signup page and client signin too**************************/
+  /*************************Product Page************************/
+
+.Product_Page_container{
+  margin: auto;
+  height: 520px;
+  width: 100vw;
+  max-width: 1250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Product_Page_container .Left_Side{
+  width: 650px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.Product_Page_container .Left_Side .Small_Photos_Container{
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Product_Page_container .Left_Side .Small_Photos_Container button{
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  padding: 0;
+  border: #0F0F26 solid 2px;
+}
+
+.Product_Page_container .Left_Side .Small_Photos_Container button img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Product_Page_container .Left_Side .Main_Photo_Container img{
+  width: 520px;
+  height: 100%;
+  margin: 0 auto;
+  border: #0F0F26 solid 2px;
+}
+
+/************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;
   width: 50vw;

@@ -1253,6 +1253,25 @@ body{
   border: #0F0F26 solid 2px;
 }
 
+.Product_Page_container .Right_Side{
+  width: 500px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.Product_Page_container .Right_Side .Owner{
+  font-family: 'Cairo';
+  margin-top: -5px;
+}
+
+.Product_Page_container .Right_Side .Price{
+  font-size: 22px; 
+  margin-top: -10px;
+  font-family: 'Cairo';
+  font-weight: 900;
+  color: #6661F7;
+}
+
 /************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;

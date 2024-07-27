@@ -1272,6 +1272,23 @@ body{
   color: #6661F7;
 }
 
+.Product_Page_container .Right_Side .Checkboxes{
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+.Product_Page_container .Right_Side .Fit_Size{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.Product_Page_container .Right_Side .Fit_Size p{
+  margin-top: 5px;
+  color: #6661F7;
+  text-align: right;
+}
+
 /************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;

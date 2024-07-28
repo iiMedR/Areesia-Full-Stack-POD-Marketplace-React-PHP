@@ -1289,6 +1289,18 @@ body{
   text-align: right;
 }
 
+.Product_Page_container .Right_Side .primaryButton, .Product_Page_container .Right_Side .secondaryButton:hover{
+  background-color: #6661F7;
+  border: #6661F7 solid 2px;
+  color: white;
+}
+
+.Product_Page_container .Right_Side .secondaryButton, .Product_Page_container .Right_Side .primaryButton:hover{
+  background-color: transparent;
+  border: #6661F7 solid 2px;
+  color: #6661F7;
+}
+
 /************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;

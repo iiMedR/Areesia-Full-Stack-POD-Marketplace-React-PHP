@@ -1301,6 +1301,43 @@ body{
   color: #6661F7;
 }
 
+.Product_Description{
+  padding: 40px;
+  margin: auto;
+  max-width: 1250px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.Product_Description h4{
+  margin-top: 50px;
+}
+
+.Product_Description p{
+  font-family: 'Cairo';
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.Product_Description .Details_Container{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Cairo';
+  font-weight: 900;
+}
+
+.Product_Description .Details_Container .Details{
+  display: flex;
+  flex-direction: row;
+}
+
+.Product_Description .Details_Container .Details .Title{
+  width: 20%;
+  min-width: 200px;
+}
+
+
 /************** Client signup page and client signin too**************************/
 .Client_Left_Item {
   padding-top: 50px;

@@ -1774,4 +1774,46 @@ width: 100%; /* Width of individual fields */
     margin: auto;
   }
 
+  .Designer_Profile_Products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px 80px;
+  }
+
+  .Designer_Profile_Products .Product{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #0F0F26;
+    font-family: 'Cairo';
+    font-weight: 900;
+    transition: 0.5s;
+  }
+
+  .Designer_Profile_Products .Product:hover{
+    scale: 1.01;
+  }
+
+   .Designer_Profile_Products .Product img{
+    border-radius: 10px;
+  }
+
+   .Designer_Profile_Products .Product .text{
+    color: black;
+    text-decoration: none;
+  }
+
+   .Designer_Profile_Products .Product #owner-name{
+    font-weight: 100;
+  }
+
+   .Designer_Profile_Products .Product p{
+    color: #6661F7;
+    font-size: 20px;
+  }
+  
   

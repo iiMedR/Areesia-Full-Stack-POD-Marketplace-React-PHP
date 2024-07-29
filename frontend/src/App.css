@@ -1758,4 +1758,20 @@ width: 100%; /* Width of individual fields */
   }
 
 
+  .Designer_Profile_Info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: -50px;
+  }
+
+  .Designer_Profile_Info .Row{
+    display: flex;
+    flex-direction: row !important;
+    gap: 15px;
+    margin: auto;
+  }
+
   

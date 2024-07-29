@@ -1816,4 +1816,29 @@ width: 100%; /* Width of individual fields */
     font-size: 20px;
   }
   
+  @media(max-width: 500px){
+
+    .Designer_Profile_Container{
+      width: 100vw;
+      max-width: 1600px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .Designer_Profile_Container .Designer_Profile_Cover{
+      border: #0F0F26 solid 2px;
+      width: 100%;
+      max-width: 1450px;
+      height: 150px;
+      overflow: hidden; /* Hide parts of the image that exceed the container */
+    }
   
+    .Designer_Profile_Container .Designer_Profile_Cover img{
+      width: 100%; 
+      height: 100%;
+      object-fit: cover;
+    }
+
+  }

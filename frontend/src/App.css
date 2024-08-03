@@ -1646,6 +1646,29 @@ width: 100%; /* Width of individual fields */
 }
 
 
+/***************************Cart page*********************/
+
+.Cart_Page_Container{
+  padding: 0px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Cart_Page_Container .Cart_Container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.Cart_Left_Side{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 /**************************** Client Profile*************************************/
 
 .Client_Profile_Page{

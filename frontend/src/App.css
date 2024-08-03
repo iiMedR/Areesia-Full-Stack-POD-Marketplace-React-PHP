@@ -1669,6 +1669,30 @@ width: 100%; /* Width of individual fields */
   gap: 30px;
 }
 
+.Cart_Left_Side .Products_Container{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.Cart_Left_Side .Products_Container .Product_Image img{
+  height: 135px;
+  width: 135px;
+}
+
+.Cart_Left_Side .Products_Container .Product_Info_Container{
+  width: 400px;
+}
+
+.Cart_Left_Side .Products_Container .Product_Info_Container .Product_Info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Product_Info p{
+  margin: auto 0;
+}
+
 /**************************** Client Profile*************************************/
 
 .Client_Profile_Page{

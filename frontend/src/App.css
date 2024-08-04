@@ -1693,6 +1693,38 @@ width: 100%; /* Width of individual fields */
   margin: auto 0;
 }
 
+.Product_Info .close{
+  background-color: black;
+  border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 999px;
+  color: white;
+  font-weight: 100;
+  position: relative;
+}
+
+.Product_Info .close .a{
+  height: 2px;
+  width: 12px;
+  border-radius: 999px;
+  background-color: white;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 11.5px;
+
+}
+
+.Product_Info .close .b{
+  height: 2px;
+  width: 12px;
+  border-radius: 999px;
+  background-color: white;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 11.5px;
+}
+
 /**************************** Client Profile*************************************/
 
 .Client_Profile_Page{

@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Navbar from '../components/Client/ProductsNavbar/ProductsNavbar'
+import QuantityInput from '../components/Client/NumberInput/QuantityInput'
 import FormControl from '@mui/joy/FormControl';
 import FormHelperText from '@mui/joy/FormHelperText';
 import Radio from '@mui/joy/Radio';
@@ -51,6 +52,7 @@ function Cart() {
                                 <h6>{product.title}</h6>
                                 <div className='Product_Info'>
                                     <p>Quantity</p>
+                                    <QuantityInput />
                                     <p>250 MAD</p>
                                     <button className='close'><div className='a'/><div className='b'/></button>
                                 </div>

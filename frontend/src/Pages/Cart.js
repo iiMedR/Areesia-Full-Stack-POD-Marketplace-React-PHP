@@ -36,6 +36,14 @@ function Cart() {
         {image: p1, title:'Black cat with flowers Pullover Hoodie', price:'150'},
     ]
 
+    const [activeStep, setActiveStep] = useState(1)
+    const handleNext = () => {
+      setActiveStep((prevStep) => prevStep + 1);
+    }
+    const handleBack = () => {
+      setActiveStep((prevstep) => prevstep - 1);
+    }
+
   return (
     <div>
         <Navbar />
@@ -62,6 +70,43 @@ function Cart() {
                     <hr />
                 </div>
                 <div className='Cart_Right_Side'>
+                    {/** step 1 */}
+                    {activeStep === 1 && (
+                        <div>
+                            <h4>Shipping</h4>
+                            <div className='Shipping_Container'>
+                                <RadioGroup defaultValue="free" name="shipping">
+                                    <FormControl size="lg">
+                                        <Radio value="free" label="Free Shipping" color="neutral" />
+                                        <FormHelperText>
+                                            Between 2 - 5 days
+                                        </FormHelperText>
+                                    </FormControl>
+                                </RadioGroup>
+                                <h5>0 MAD</h5>
+                            </div>
+                            <h4>Order Summary</h4>
+                            <div className='Order_Summary'>
+                                <p>Subtotal</p>
+                                <p>250 MAD</p>
+                            </div>
+                            <div className='Order_Summary'>
+                                <p>Shipping fees</p>
+                                <p>0 MAD</p>
+                            </div>
+                            <div className='Order_Summary'>
+                                <p>Total</p>
+                                <p>250 MAD</p>
+                            </div>
+                            <div className='Cart_Right_Bottom'>
+                                <button className='primaryButton' onClick={() => handleNext()}>NEXT</button>
+                                <div className='step-indicator-container'>
+                                    <div className={activeStep === 1 ? 'step-indicator active' : 'step-indicator'}></div>
+                                    <div className={activeStep === 2 ? 'step-indicator active' : 'step-indicator'}></div>
+                                </div>
+                            </div>
+                        </div>
+                    )}
                 </div>
             </div>
         </div>

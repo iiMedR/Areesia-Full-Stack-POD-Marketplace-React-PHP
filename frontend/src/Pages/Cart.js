@@ -107,6 +107,35 @@ function Cart() {
                             </div>
                         </div>
                     )}
+                    {/** step 1 */}
+                    {activeStep === 2 && (
+                        <div>
+                            <h4>Delivery Info</h4>
+                            <div className='Cart_Form'>
+                                <div className='name-fields'>
+                                    <WhiteBorderTextField className='fields' id="firstName" label="First Name" required/>
+                                    <WhiteBorderTextField className='fields' id="lastName" label="Last Name" required/>
+                                </div>
+                                <div className='name-fields'>
+                                    <WhiteBorderTextField className='fields' id="city" label="City" required/>
+                                    <WhiteBorderTextField className='fields' id="country" label="Country" required/>
+                                </div>
+                                <div className='name-fields'>
+                                    <WhiteBorderTextField className='fields' id="postalCode" label="Postal Code" required/>
+                                    <WhiteBorderTextField className='fields' id="phoneNumber" label="Phone Number" required/>
+                                </div>
+                                <WhiteBorderTextField className='fields' id="Address" label="Address" sx={{width: '100%'}} required/>
+                            </div>
+                            <div className='Cart_Right_Bottom'>
+                                <button className='primaryButton'>Finish The Order</button>
+                                <button className='secondaryButton' onClick={() => handleBack()}>Back</button>
+                                <div className='step-indicator-container'>
+                                    <div className={activeStep === 1 ? 'step-indicator active' : 'step-indicator'}></div>
+                                    <div className={activeStep === 2 ? 'step-indicator active' : 'step-indicator'}></div>
+                                </div>
+                            </div>
+                        </div>
+                    )}
                 </div>
             </div>
         </div>

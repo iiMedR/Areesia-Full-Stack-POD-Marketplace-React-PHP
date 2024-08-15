@@ -1725,6 +1725,31 @@ width: 100%; /* Width of individual fields */
   top: 11.5px;
 }
 
+.Cart_Right_Side{
+  width: 50%;
+  border: #0F0F26 solid 3px;
+  border-radius: 15px;
+  padding: 35px;
+}
+
+.Cart_Right_Side .Shipping_Container{
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: #0F0F26 solid 2px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Cart_Right_Side .Shipping_Container h5{
+  text-align: center;
+  margin: auto 0;
+  font-family: 'Cairo';
+  font-weight: 900;
+}
+
 /**************************** Client Profile*************************************/
 
 .Client_Profile_Page{

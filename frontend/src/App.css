@@ -1750,6 +1750,24 @@ width: 100%; /* Width of individual fields */
   font-weight: 900;
 }
 
+.Cart_Right_Side .Order_Summary{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Cairo';
+  font-weight: 500;
+}
+
+.Cart_Right_Side .Cart_Right_Bottom{
+  margin-top: 50px;
+  width: 100%;
+  margin: auto;
+}
+
+.Cart_Right_Side .Cart_Right_Bottom .step-indicator-container{
+  margin: 10px;
+}
+
 /**************************** Client Profile*************************************/
 
 .Client_Profile_Page{

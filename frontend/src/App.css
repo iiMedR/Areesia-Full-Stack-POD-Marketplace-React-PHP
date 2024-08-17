@@ -1768,6 +1768,11 @@ width: 100%; /* Width of individual fields */
   margin: 10px;
 }
 
+.Cart_Form{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 /**************************** Client Profile*************************************/
 
 .Client_Profile_Page{

@@ -1773,6 +1773,15 @@ width: 100%; /* Width of individual fields */
   margin-bottom: 20px;
 }
 
+/****************************Client Orders**************************/
+
+.Cient_Orders_Container{
+  padding: 40px 100px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+
 /**************************** Client Profile*************************************/
 
 .Client_Profile_Page{

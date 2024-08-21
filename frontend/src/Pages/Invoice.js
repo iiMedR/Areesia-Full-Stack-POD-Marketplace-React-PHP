@@ -39,6 +39,16 @@ function Invoice() {
                         </div>
                     </div>
                     <hr/>
+                    <div className='Table_Header'>
+                        <h5>Name</h5><h5>Unit Cost</h5><h5>Quantity</h5><h5>Total</h5>
+                    </div>
+                    <hr/>
+                    {orders.map((order, index) => (
+                        <div key={index} className='Table_Content'>
+                            <p>{order.name}</p><p>{order.unitCost} MAD</p><p>{order.qty}</p><p>{order.total} MAD</p>
+                        </div>
+                    ))}
+                    <hr/>
                     <div className='Invoice_Bottom'>
                         <h5>Subtotal</h5>
                         <p>250.00 MAD</p>

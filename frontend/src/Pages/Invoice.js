@@ -2,11 +2,25 @@ import React from 'react'
 import Navbar from '../components/Client/ProductsNavbar/ProductsNavbar'
 import orderCompleted from '../assets/img/ordercompleted.png' 
 
+import jsPDF from 'jspdf';
+import html2canvas from 'html2canvas';
 
 function Invoice() {
     const orders = [
         {name: 'Black cat with flowers Pullov...', unitCost: '250.00', qty: '1', total:'250.00'}
     ]
+
+    const downloadPdf = () => {
+        const input = document.getElementById('invoice'); // The ID of your invoice container
+        html2canvas(input)
+          .then((canvas) => {
+            const imgData = canvas.toDataURL('image/png');
+            const pdf = new jsPDF();
+            pdf.addImage(imgData, 'PNG', 0, 0);
+            pdf.save("invoice.pdf");
+          })
+          .catch(err => console.error("Error in PDF download: ", err));
+      };
 
   return (
     <div>
@@ -58,6 +72,7 @@ function Invoice() {
                         <p>0.00 MAD</p>
                     </div>
                 </div>     
+                    <button className='primaryButton' onClick={downloadPdf}>Download It</button>   
                 </div>
             </div>
         </div>

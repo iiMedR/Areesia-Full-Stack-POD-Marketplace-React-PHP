@@ -24,6 +24,7 @@ import ClientSettings from './Pages/ClientSettings';
 import Cart from './Pages/Cart';
 import ClientOrders from './Pages/ClientOrders';
 import ClientProfile from './Pages/ClientProfile';
+import Invoice from './Pages/Invoice';
 import DesignerPage from './Pages/DesignerProfile';
 
 
@@ -50,6 +51,7 @@ class App extends Component  {
             <Route path="/client-settings" element={<ClientLoggedOut> <ClientSettings /> </ClientLoggedOut>}  />
             <Route path="/cart" element={<Cart />}  />
             <Route path="/Orders" element={<ClientLoggedOut> <ClientOrders /> </ClientLoggedOut>}  />
+            <Route path="/invoice" element={<ClientLoggedOut> <Invoice /> </ClientLoggedOut>}  />
             <Route path="/designer" element={<DesignerPage />}  />
           </Routes>
         </Router>

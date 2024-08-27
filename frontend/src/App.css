@@ -1840,6 +1840,41 @@ width: 100%; /* Width of individual fields */
 }
 
 
+/********************************Invoice page********************/
+
+.Invoice_Page_Container{
+  padding: 0px 100px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.Invoice_Page_Container .Invoice_Container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.Invoice_Left_Side{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.Invoice_Left_Side img{
+  margin: 0 auto;
+  height: 230px;
+  width: 230px;
+}
+
+.Invoice_Left_Side .text{
+  margin: 0 auto;
+  text-align: center;
+}
+
 /*************************Designer Profile**********************************/
 
   .Designer_Profile_Container{

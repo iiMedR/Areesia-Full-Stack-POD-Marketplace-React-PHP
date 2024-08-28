@@ -1875,6 +1875,49 @@ width: 100%; /* Width of individual fields */
   text-align: center;
 }
 
+.Invoice_Right_Side{
+  width: 50%;
+  border: #0F0F26 solid 3px;
+  border-radius: 15px;
+  font-family: 'Cairo';
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+
+.Invoice_Right_Side h4{
+  font-weight: 900;
+}
+
+.Invoice_Right_Side .Invoice_Information{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.Invoice_Right_Side .Invoice_Information .Left_Side{
+  width: 60%;
+}
+.Invoice_Right_Side .Invoice_Information .Left_Side h5{
+  color: #8C8C8C;
+}
+.Invoice_Right_Side .Invoice_Information .Left_Side p{
+  margin-bottom: 0;
+}
+
+.Invoice_Right_Side .Invoice_Information .Right_Side{
+  padding: 0 10px;
+  width: 30%;
+}
+.Invoice_Right_Side .Invoice_Information .Right_Side h5{
+  color: #8C8C8C;
+}
+.Invoice_Right_Side .Invoice_Information .Right_Side p{
+  margin-bottom: 0;
+}
+
+
 /*************************Designer Profile**********************************/
 
   .Designer_Profile_Container{

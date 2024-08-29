@@ -1918,6 +1918,22 @@ width: 100%; /* Width of individual fields */
 }
 
 
+.Invoice_Right_Side .Table_Header, .Invoice_Right_Side .Table_Content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.Invoice_Right_Side .Table_Header h5{
+  width: 25%;
+}
+
+.Invoice_Right_Side .Table_Content p{
+  width: 25%;
+  font-size: 18px;
+}
+
 /*************************Designer Profile**********************************/
 
   .Designer_Profile_Container{

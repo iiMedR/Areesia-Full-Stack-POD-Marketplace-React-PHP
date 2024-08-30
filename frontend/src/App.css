@@ -1934,6 +1934,18 @@ width: 100%; /* Width of individual fields */
   font-size: 18px;
 }
 
+.Invoice_Right_Side .Invoice_Bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 15px;
+}
+
+.Invoice_Right_Side .Invoice_Bottom p{
+width: 120px;
+text-align: right;
+}
+
 /*************************Designer Profile**********************************/
 
   .Designer_Profile_Container{

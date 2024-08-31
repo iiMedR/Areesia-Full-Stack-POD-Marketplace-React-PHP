@@ -1946,7 +1946,13 @@ width: 120px;
 text-align: right;
 }
 
-/*************************Designer Profile**********************************/
+.Invoice_Right_Side .primaryButton{
+  width: 60%;
+  margin: 0 auto 35px auto;
+  }
+
+
+  /*************************Designer Profile**********************************/
 
   .Designer_Profile_Container{
     width: 100vw;

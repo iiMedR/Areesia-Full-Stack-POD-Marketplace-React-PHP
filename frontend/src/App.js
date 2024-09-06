@@ -14,6 +14,7 @@ import Dashboard from './Pages/Dashboard';
 import Settings from './Pages/Settings';
 import Addnewdesign from './Pages/Addnewdesign';
 import Managedesigns from './Pages/Managedesigns';
+import Withdrawal from './Pages/Withdrawal';
 import Hoodies from './Pages/Hoodies';
 import HomePage from './Pages/HomePage'
 import Products from './Pages/Products';
@@ -42,6 +43,7 @@ class App extends Component  {
             <Route path="/settings" element={<DesignerLoggedOut> <Settings /> </DesignerLoggedOut>}  />
             <Route path="/Add-new-design" element={<DesignerLoggedOut> <Addnewdesign /> </DesignerLoggedOut>}  />
             <Route path="/manage-designs" element={<DesignerLoggedOut> <Managedesigns /> </DesignerLoggedOut>}  />
+            <Route path="/withdrawals" element={<DesignerLoggedOut> <Withdrawal /> </DesignerLoggedOut>}  />
             <Route path="/Add-new-design/hoodies" element={<DesignerLoggedOut> <Hoodies /> </DesignerLoggedOut>}  />
             <Route path="/products" element={<Products />}  />
             <Route path="/products/product" element={<Product />}  />

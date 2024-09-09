@@ -959,6 +959,52 @@ body{
   }
 
 
+  /****************************************Withdrawals page***/
+  .withdrawal_container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 30px;
+    box-sizing: border-box;
+  }
+  .withdrawal_container p{
+    color: #C40000;
+    font-family: 'Cairo';
+    font-weight: 900;
+  }
+
+  .withdrawal_Methods_Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .withdrawal_Method{
+    height: 180px;
+    width: 30%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: #0F0F26 solid 3px;
+    border-radius: 10px;
+  }
+
+  .withdrawal_Method img{ 
+    margin: 0 auto;
+    height: 50px;
+    width: 200px;
+  }
+
+  .withdrawal_Method .primaryButton{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    margin-top: 40px;
+  }
+
   /************************************Sweatshirt page*******************************/
 
   .Printing_Places_Container{

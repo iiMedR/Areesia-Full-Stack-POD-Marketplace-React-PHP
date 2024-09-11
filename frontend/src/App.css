@@ -1023,6 +1023,24 @@ body{
     }
   }
 
+  @media (max-width: 400px) {
+    .withdrawal_container{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .withdrawal_Methods_Container{
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+    }
+  
+    .withdrawal_Method{
+      margin: 10px auto;
+      width: 100%;
+    }
+  }
+
   /************************************Sweatshirt page*******************************/
 
   .Printing_Places_Container{

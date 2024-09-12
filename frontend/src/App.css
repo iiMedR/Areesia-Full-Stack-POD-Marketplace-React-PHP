@@ -1041,6 +1041,40 @@ body{
     }
   }
 
+  .My_Requests_Container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+  }
+
+  .My_Request_Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+  .My_Request_Header .primaryButton{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 50px;
+    width: 300px;
+    font-size: 15px;
+  }
+
+  .myRequestTableRow {
+    border-bottom: 3px solid black !important;
+  }
+
+  .myRequestTableRow .text{
+    color: #0F0F26;
+    font-family: 'cairo';
+    font-weight: 900;
+    font-size: 16px;
+  }
+
+
+
   /************************************Sweatshirt page*******************************/
 
   .Printing_Places_Container{

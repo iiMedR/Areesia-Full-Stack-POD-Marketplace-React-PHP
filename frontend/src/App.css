@@ -1075,6 +1075,31 @@ body{
 
 
 
+  /************************************cashplus popup*************/
+  .CashPlus_Container{
+    display: flex;
+    flex-direction: column;
+  }
+  .CashPlus_Container img{
+    display: flex;
+    margin: 0 auto;
+    width: 300px;
+  }
+  .CashPlus_Container .name-fields{
+    margin-top: 35px;
+  }
+  .CashPlus_Container p{
+    text-align: left;
+    font-family: 'cairo';
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+  .CashPlus_Container .buttons-container .primaryButton,
+  .CashPlus_Container .buttons-container .secondaryButton{
+    padding: 15px;
+  }
+
   /************************************Sweatshirt page*******************************/
 
   .Printing_Places_Container{

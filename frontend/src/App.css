@@ -1100,6 +1100,34 @@ body{
     padding: 15px;
   }
 
+  @media (max-width: 430px){
+    .CashPlus_Container{
+      width: 100vw;
+      height: 100vh;
+      padding: 30px;
+    }
+
+    .CashPlus_Container img{
+      display: flex;
+      margin: 0 auto;
+      width: 180px;
+    }
+    .CashPlus_Container .name-fields{
+      display: flex;
+      flex-direction: column;
+      width: 100% !important;
+    }
+    .CashPlus_Container .name-fields .fields{
+      width: 100% !important;
+      margin-top: 10px;
+    }
+    .CashPlus_Container .buttons-container .primaryButton,
+    .CashPlus_Container .buttons-container .secondaryButton{
+      padding: 10px;
+      font-size: 12px;
+    }
+  }
+
   /************************************Sweatshirt page*******************************/
 
   .Printing_Places_Container{

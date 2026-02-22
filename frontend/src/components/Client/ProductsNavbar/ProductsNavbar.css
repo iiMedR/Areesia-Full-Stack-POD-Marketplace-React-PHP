@@ -1,0 +1,33 @@
+.Products_Navbar_Container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.Products_Navbar_Top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background-color: transparent;
+    color: #6661F7;
+}
+
+.Products_Navbar_Top .Logo_Container .logoo{
+    font-size: 35px;
+}
+
+
+.Products_Navbar_Top .Icons_Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Products_Navbar_bottom{
+    height: 50px;
+    margin: 0 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

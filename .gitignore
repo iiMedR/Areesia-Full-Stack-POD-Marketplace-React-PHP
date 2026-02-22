@@ -1,0 +1,47 @@
+# ===============================
+# ENV FILES
+# ===============================
+.env
+*.env
+frontend/.env
+backend/.env
+
+# ===============================
+# FRONTEND (React)
+# ===============================
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ===============================
+# BACKEND (PHP)
+# ===============================
+backend/vendor/
+
+# ===============================
+# DATABASE
+# ===============================
+*.sql.gz
+*.sqlite
+
+# ===============================
+# OS FILES
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE FILES
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# LOGS
+# ===============================
+*.log

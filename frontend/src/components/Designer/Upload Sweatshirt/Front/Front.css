@@ -1,0 +1,47 @@
+.Front_Mockup{
+    position: relative; /* Added */
+    max-width: 301px;
+    min-width: 301px;
+    min-height: 400px;
+    background-image: url('../../../../assets/img/sweatshirt_front_Big.png'); /* Replace with your image path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.Front_Mockup .design_Mockup{
+    position: absolute; /* Added */
+    top: 100px; /* Adjust as needed */
+    border: #0F0F26 dashed 2px;
+    min-height: 150px;
+    min-width: 135px;
+}
+
+.Front_Mockup .design_Mockup .upload_Container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0F0F26; /* Text color */
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+
+.Front_Mockup .design_Mockup .upload_Container:hover::after {
+    background-color: #ffffffde; /* Darker shade on hover */
+    content: 'Upload Design';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0F0F26; /* Text color */
+    font-size: 16px;
+}

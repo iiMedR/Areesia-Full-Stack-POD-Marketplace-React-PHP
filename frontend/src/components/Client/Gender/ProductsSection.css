@@ -1,0 +1,96 @@
+.Sections_Container{
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Sections_Container .Top_Container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto 50px auto;
+    max-width: 1050px;
+}
+
+.Sections_Container .Top_Container .Section{
+    position: relative;
+    height: 470px;
+    width: 470px;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.Sections_Container .Top_Container .Section:hover{
+    scale: 1.03;
+}
+
+
+.Sections_Container .Top_Container .Kids{
+    background-image: url(../../../assets/img/Boy.png);
+    border: #F4B962 solid 3px;
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the background image */
+}
+.Sections_Container .Top_Container .Kids p{
+    background-color: white;
+    color: #F4B962;
+}
+.Sections_Container .Top_Container .Women{
+    background-image: url(../../../assets/img/Women.png);
+    border: #D762F4 solid 3px;
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the background image */
+}
+.Sections_Container .Top_Container .Women p{
+    background-color: #D762F4;
+}
+.Sections_Container .Bottom_Container .Men{
+    background-image: url(../../../assets/img/Men.png);
+    border: #6661F7 solid 3px;
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the background image */
+}
+.Sections_Container .Bottom_Container .Men p{
+    background-color: white;
+    color: #6661F7;
+}
+
+.Sections_Container .Top_Container .Section p, .Sections_Container .Bottom_Container .Section p{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.Sections_Container .Bottom_Container{
+    width: 100%;
+    display: flex;
+    margin: 0 auto 50px auto;
+    max-width: 1050px;
+}
+
+.Sections_Container .Bottom_Container .Section{
+    position: relative;
+    height: 470px;
+    width: 100%;
+    border: #6661F7 solid 3px;
+    border-radius: 15px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.Sections_Container .Bottom_Container .Section:hover{
+    scale: 1.02;
+}

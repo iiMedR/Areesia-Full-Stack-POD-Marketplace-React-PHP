@@ -1,0 +1,32 @@
+.Client_Navbar_Container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background-color: transparent;
+    color: white;
+}
+
+.Client_Navbar_Container .Logo_Container .logoo{
+    font-size: 35px;
+}
+
+.Client_Navbar_Container .Links_Section_Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    margin: auto;
+}
+
+.Client_Navbar_Container .Links_Section_Container .nav-link{
+    color: white !important;
+}
+
+.Client_Navbar_Container .Icons_Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+

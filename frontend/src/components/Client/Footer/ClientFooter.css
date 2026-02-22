@@ -1,0 +1,58 @@
+@font-face {
+	font-family: Cairo;
+	src: url('../../../assets/font/Cairo-Light.ttf');
+    font-weight: 200;
+}
+
+.Client_Footer_Container .Logo_Container{
+    margin: 0 auto 50px auto;
+}
+
+.Client_Footer_Container .Logo_Container .Footer_Logo{
+    width: 100px;
+    cursor: pointer;
+    
+}
+
+.Client_Footer_Container{
+    height: 417px;
+    width: 100%;
+    background-color: #6661F7;
+    color: white;
+    padding: 30px 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Client_Footer_Container .Sections_Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Client_Footer_Container .Sections_Container .Section{
+    display: flex;
+    flex-direction: column;
+}
+
+.Sections_Container .Section .link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Cairo';
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+.Client_Footer_Container .logoo, .Client_Footer_Container .rights{
+    margin: auto;
+}
+
+.Client_Footer_Container .logoo{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.Client_Footer_Container .rights{
+    font-family: 'Cairo';
+}
